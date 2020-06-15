@@ -3,7 +3,9 @@ package com.example.domain;
 public class Car {
 
     private String name;
-    private int speed;
+
+    private String driver;
+    
 
     public String getName() {
         return name;
@@ -13,13 +15,12 @@ public class Car {
         this.name = name;
     }
 
-    public int getSpeed() {
-        return speed;
-    }
-
-    public void setSpeed(int speed) {
-        this.speed = speed;
-    }
+	public String getDriver() {
+		return driver;
+	}
+	public void setDriver(String driver) {
+		this.driver = driver;
+	}
 
 
 
